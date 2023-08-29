@@ -9,14 +9,14 @@ public class LoginPageObject {
 
 	public WebDriver driver;
 
-	By username = By.xpath("//input[@id='username']");
-	By password = By.xpath("//input[@id='password']");
-	By login = By.xpath("//input[@id='Login']");
-	By forgotyourpass = By.xpath("//a[@id='forgot_password_link']");
-	By cancel = By.xpath("//input[@name='cancel']");
-	By clickoncustomdomain = By.xpath("//a[@id='mydomainLink']");
-	By clickontryforfree = By.xpath("//a[@id='signup_link']");
-	By errormessage=By.xpath("//div[@id='error']");
+	private By username = By.xpath("//input[@id='username']");
+	private By password = By.xpath("//input[@id='password']");
+	private By login = By.xpath("//input[@id='Login']");
+	private By forgotyourpass = By.xpath("//a[@id='forgot_password_link']");
+	private By cancel = By.xpath("//input[@name='cancel']");
+	private By clickoncustomdomain = By.xpath("//a[@id='mydomainLink']");
+	private By clickontryforfree = By.xpath("//a[@id='signup_link']");
+	private By errormessage=By.xpath("//div[@id='error']");
 
 	public LoginPageObject(WebDriver driver2) {
 		this.driver = driver2;

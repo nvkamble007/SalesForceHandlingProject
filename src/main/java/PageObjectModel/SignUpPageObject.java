@@ -9,16 +9,16 @@ public class SignUpPageObject {
 
 	public WebDriver driver;
 
-	By firstname = By.xpath("//input[@name='UserFirstName']");
-	By lastname = By.xpath("//input[@name='UserLastName']");
-	By jobtitle = By.xpath("//input[@name='UserTitle']");
-	By email = By.xpath("//input[@name='UserEmail']");
-	By company = By.xpath("//input[@name='CompanyName']");
-	By employees = By.xpath("//select[@name='CompanyEmployees']");
-	By phone = By.xpath("//input[@name='UserPhone']");
-	By country = By.xpath("//Select[@name='CompanyCountry']");
-	By agreement = By.xpath("(//div[@class='checkbox-ui'])[1]");
-	By starttrial = By.xpath("//button[@name='start my free trial']");
+	private By firstname = By.xpath("//input[@name='UserFirstName']");
+	private By lastname = By.xpath("//input[@name='UserLastName']");
+	private By jobtitle = By.xpath("//input[@name='UserTitle']");
+	private By email = By.xpath("//input[@name='UserEmail']");
+	private By company = By.xpath("//input[@name='CompanyName']");
+	private By employees = By.xpath("//select[@name='CompanyEmployees']");
+	private By phone = By.xpath("//input[@name='UserPhone']");
+	private By country = By.xpath("//Select[@name='CompanyCountry']");
+	private By agreement = By.xpath("(//div[@class='checkbox-ui'])[1]");
+	private By starttrial = By.xpath("//button[@name='start my free trial']");
 
 	public SignUpPageObject(WebDriver driver2) {
 		this.driver = driver2;
