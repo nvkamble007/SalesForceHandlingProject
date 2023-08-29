@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-12T12:01:11 IST" name="Suite" finished-at="2023-07-12T12:01:37 IST" duration-ms="25601">
+  <suite started-at="2023-08-29T14:19:04 IST" name="Suite" finished-at="2023-08-29T14:19:26 IST" duration-ms="21673">
     <groups>
     </groups>
-    <test started-at="2023-07-12T12:01:11 IST" name="Test" finished-at="2023-07-12T12:01:37 IST" duration-ms="25601">
+    <test started-at="2023-08-29T14:19:04 IST" name="Test" finished-at="2023-08-29T14:19:26 IST" duration-ms="21673">
       <class name="TestCases.LoginTestCase">
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTestCase@3d6f0054]" started-at="2023-07-12T12:01:11 IST" name="launch" finished-at="2023-07-12T12:01:18 IST" duration-ms="7180" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTestCase@fa49800]" started-at="2023-08-29T14:19:04 IST" name="launch" finished-at="2023-08-29T14:19:09 IST" duration-ms="4820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="method()[pri:0, instance:TestCases.LoginTestCase@3d6f0054]" started-at="2023-07-12T12:01:18 IST" name="method" finished-at="2023-07-12T12:01:23 IST" duration-ms="4868" status="PASS">
+        <test-method signature="method()[pri:0, instance:TestCases.LoginTestCase@fa49800]" started-at="2023-08-29T14:19:09 IST" name="method" finished-at="2023-08-29T14:19:14 IST" duration-ms="4498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
       </class> <!-- TestCases.LoginTestCase -->
       <class name="TestCases.SignUpTestCase">
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.SignUpTestCase@485966cc]" started-at="2023-07-12T12:01:23 IST" name="launch" finished-at="2023-07-12T12:01:27 IST" duration-ms="3755" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.SignUpTestCase@43dac38f]" started-at="2023-08-29T14:19:14 IST" name="launch" finished-at="2023-08-29T14:19:16 IST" duration-ms="2674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="method()[pri:0, instance:TestCases.SignUpTestCase@485966cc]" started-at="2023-07-12T12:01:27 IST" name="method" finished-at="2023-07-12T12:01:37 IST" duration-ms="9681" status="PASS">
+        <test-method signature="method()[pri:0, instance:TestCases.SignUpTestCase@43dac38f]" started-at="2023-08-29T14:19:16 IST" name="method" finished-at="2023-08-29T14:19:26 IST" duration-ms="9642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
